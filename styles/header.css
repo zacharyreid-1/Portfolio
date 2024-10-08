@@ -1,0 +1,27 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: #00304F;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.github, .linkedin{
+    cursor: pointer;
+    background-color: #00304F;
+}
+
+.github{
+    margin-right: 20px;
+}
+
+.github:hover, .linkedin:hover{
+    opacity: .7;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: #00304F;
+    font-family: Roboto, Arial;
+    padding-top: 60px;
+    padding-left: 50%;
+    color: #F7F0F0;
+    /* rgb(15, 23, 42) */
+}
+
+.general_content{
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.about_me{
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.experience_list{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    margin-bottom: 50px;
+}
+
+.resume{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resume:hover{
+    opacity: .7;
+    text-decoration: underline;
+}
+

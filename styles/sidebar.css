@@ -1,0 +1,31 @@
+.sidebar{
+    background-color: #00304F;
+    position: fixed;
+    left: 0px;
+    top: 50px;
+    bottom: 0px;
+    width: 50%;
+}
+
+.sidebar_content{
+    display: inline-block;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.sidebar_content_name{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sidebar_content_description{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sidebar_content_employ{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
